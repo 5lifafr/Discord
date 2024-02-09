@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('993245909079052369')
     .setType('STREAMING')
-    .setURL('') //Must be a youtube video link
+    .setURL('https://twitch.com/5lifafr') //Must be a youtube video link
     .setName('')
     .setDetails(``)
     .setStartTimestamp(Date.now())
