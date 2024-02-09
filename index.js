@@ -25,15 +25,15 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('993245909079052369')
     .setType('STREAMING')
-    .setURL('https://www.twitch.tv/5lifafr') //Must be a youtube video link
-    .setName('/anyy')
-    .setDetails(`kk.`)
+    .setURL('') //Must be a youtube video link
+    .setName('')
+    .setDetails(``)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1181262876003020910/1200385165407555664/1280px-HD_transparent_picture.png?ex=65c5fccd&is=65b387cd&hm=5fffb20b31418e175dc0748997eba0aaf6eef5f21599e56bc98d448eea91f32d&=&format=webp&quality=lossless&width=1111&height=625') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('.gg/anyy') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1181262876003020910/1200121128161648710/verifiedblack.gif?ex=65c506e6&is=65b291e6&hm=ae9676eb84fcf8b15fbf7846f0c63eb5d739d540a5e0404c3b1cd89024aa4d22&=') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Verfied') //Text when you hover the Small image
-    .addButton('@k', 'https://discord.gg/anyy');
+ .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('') //Text when you hover the Large image
+    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('') //Text when you hover the Small image
+    .addButton('', '');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
